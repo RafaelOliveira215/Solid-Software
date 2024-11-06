@@ -5,7 +5,7 @@ interface ScreenContainerProps {
   }
 
 
-export const ScreenContainer = styled.View<ScreenContainerProps>`
+export const ScreenContainer = styled.Pressable<ScreenContainerProps>`
   justify-content: center;
   align-items: center;
   background-color: ${(props) => props.backgroundColor};
